@@ -27,9 +27,9 @@ const Layout: FC<LayoutProps> = ({
 };
 
 Layout.defaultProps = {
-  title: "LinkedList",
-  description: "A single platform for all your work",
-  keywords: "social media, youtuber, social media influencer",
+  title: "Scriptr",
+  description: "A modern, free, open source, powerful and feature rich script writing platform with support for multi collaborative documents dedicated to all the amatuer and veteran writors",
+  keywords: "script, text editor, free, open source, writers",
 };
 
 export default Layout;
