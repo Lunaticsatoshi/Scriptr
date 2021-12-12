@@ -1,11 +1,16 @@
-import type { NextPage } from 'next';
+import type { NextPage } from "next";
+import dynamic from "next/dynamic";
+
+const TextEditor = dynamic(() => import("src/components/editor/TextEditor"), {
+  ssr: false,
+});
 
 const DocumentPage: NextPage = () => {
-    return (
-        <div>
-            <h1>Text Editor</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <TextEditor />
+    </div>
+  );
+};
 
-export default DocumentPage
+export default DocumentPage;
