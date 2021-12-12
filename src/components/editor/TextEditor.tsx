@@ -29,8 +29,6 @@ const TextEditor = () => {
                 ],
             },
         });
-        quill.disable();
-        quill.setText("Hello, World!");
         setQuill(quill);
     } , []);
 
